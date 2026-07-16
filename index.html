@@ -1,10 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="ca">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Els 7 Mini Xena</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background:#050505;
+            color:white;
+            overflow-x:hidden;
+        }
+
+        header{
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            text-align:center;
+            padding:20px;
+            background:
+            radial-gradient(circle at top,#3b3b3b 0%,#111 45%,#000 100%);
+        }
+
+        h1{
+            font-size:65px;
+            letter-spacing:6px;
+            text-transform:uppercase;
+            margin-bottom:20px;
+        }
+
+        h2{
+            font-size:22px;
+            color:#d8d8d8;
+            font-weight:normal;
+            margin-bottom:35px;
+        }
+
+        .info{
+            font-size:20px;
+            margin:8px;
+        }
+
+        .button{
+            margin-top:45px;
+            background:white;
+            color:black;
+            text-decoration:none;
+            padding:18px 38px;
+            border-radius:40px;
+            font-weight:bold;
+            transition:.3s;
+        }
+
+        .button:hover{
+            transform:scale(1.05);
+        }
+
+        footer{
+            padding:30px;
+            text-align:center;
+            background:#000;
+            color:#888;
+        }
+
+        @media(max-width:700px){
+
+            h1{
+                font-size:40px;
+                letter-spacing:3px;
+            }
+
+            h2{
+                font-size:18px;
+            }
+
+            .info{
+                font-size:17px;
+            }
+
+        }
+
+    </style>
 </head>
+
 <body>
-    <h1>Festival Els 7 Mini Xena</h1>
-    <p>Benvinguts al festival.</p>
+
+<header>
+
+<h1>ELS 7 MINI XENA</h1>
+
+<h2>Festival 2027</h2>
+
+<div class="info">📅 2 de gener de 2027</div>
+
+<div class="info">🎟️ Entrades oficials</div>
+
+<div class="info">📱 Escaneja el teu QR el dia del festival</div>
+
+<a href="#" class="button">PRÒXIMAMENT</a>
+
+</header>
+
+<footer>
+
+© 2027 · Festival Els 7 Mini Xena
+
+</footer>
+
 </body>
 </html>
