@@ -12,31 +12,53 @@ margin:0;
 font-family:Arial,Helvetica,sans-serif;
 background:#0a0a0a;
 color:white;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-text-align:center;
+padding:40px;
 }
 
 h1{
+text-align:center;
 font-size:48px;
-margin-bottom:20px;
+margin-bottom:40px;
 }
 
-p{
-font-size:22px;
-color:#d0d0d0;
+.card{
+max-width:500px;
+margin:20px auto;
+background:#171717;
+border-radius:18px;
+padding:25px;
+box-shadow:0 0 20px rgba(255,255,255,.08);
 }
 
-a{
+.card h2{
+margin:0;
+}
+
+.card p{
+color:#cfcfcf;
+}
+
+.boto{
 display:inline-block;
-margin-top:35px;
-padding:15px 35px;
+margin-top:15px;
+padding:12px 25px;
 background:white;
 color:black;
 text-decoration:none;
-border-radius:40px;
+border-radius:30px;
+font-weight:bold;
+}
+
+.tornar{
+display:block;
+width:220px;
+margin:40px auto;
+text-align:center;
+padding:15px;
+background:white;
+color:black;
+text-decoration:none;
+border-radius:35px;
 font-weight:bold;
 }
 
@@ -46,15 +68,15 @@ font-weight:bold;
 
 <body>
 
-<div>
-
 <h1>🎟️ Entrades oficials</h1>
 
-<a href="mx001.html">🎟️ MX001 - Veure entrada</a>
-
-<a href="index.html">Tornar a la portada</a>
-
+<div class="card">
+<h2>MX001</h2>
+<p>Primera entrada del festival.</p>
+<a class="boto" href="mx001.html">Obrir entrada</a>
 </div>
+
+<a class="tornar" href="index.html">Tornar a la portada</a>
 
 </body>
 </html>
