@@ -1,0 +1,125 @@
+/* ===========================
+   FESTIVAL ELS 7 MINI XENA
+   Estil principal
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#050505;
+    color:white;
+    overflow-x:hidden;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    padding:40px;
+    background:
+    radial-gradient(circle at top,#3b3b3b 0%,#111111 45%,#000000 100%);
+}
+
+h1{
+    font-size:64px;
+    letter-spacing:6px;
+    text-transform:uppercase;
+    margin-bottom:20px;
+}
+
+h2{
+    font-size:24px;
+    color:#d7d7d7;
+    margin-bottom:35px;
+    font-weight:normal;
+}
+
+.info{
+    font-size:20px;
+    margin:8px;
+}
+
+.button{
+    display:inline-block;
+    margin-top:40px;
+    padding:18px 40px;
+    background:white;
+    color:black;
+    text-decoration:none;
+    border-radius:40px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.button:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    background:black;
+    color:#888;
+    text-align:center;
+    padding:30px;
+}
+
+.card{
+    max-width:520px;
+    margin:25px auto;
+    background:#171717;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 0 25px rgba(255,255,255,.08);
+}
+
+.card h2{
+    margin-bottom:12px;
+}
+
+.boto{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 24px;
+    background:white;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.tornar{
+    display:block;
+    width:240px;
+    margin:40px auto;
+    text-align:center;
+    padding:15px;
+    background:white;
+    color:black;
+    text-decoration:none;
+    border-radius:35px;
+    font-weight:bold;
+}
+
+@media(max-width:700px){
+
+    h1{
+        font-size:42px;
+        letter-spacing:3px;
+    }
+
+    h2{
+        font-size:18px;
+    }
+
+    .info{
+        font-size:17px;
+    }
+
+}
